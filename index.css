@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'BebasNue';
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-color: whitesmoke;
+    width: 100%;
+    font-family: 'BebasNue';
+    line-height: 1cm;
+    margin: 0%;
+    overflow: auto;
+}
+.header{
+    background: rgb(69,0,92);
+    background: linear-gradient(90deg, rgba(69,0,92,1) 14%, rgba(167,14,85,1) 86%);
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+.header a {
+    text-decoration: none;    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo {
+    justify-content:start;
+    display: flex;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+.navigation{
+    display: flex;
+    
+}
+.navigation ul{
+    justify-content: flex-end;
+    padding: 0%;
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+.navigation ul li {
+    display: inline-block;
+    font-size: 1.5rem;
+    
+    
+}
+.navigation ul li a {
+    display: block;
+    padding:0.5rem 1rem;
+}
+.container-info{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.recuadro-bio{
+    width: 80%;
+    height: 90%;
+    background: rgb(69,0,92);
+    background: linear-gradient(90deg, rgba(69,0,92,1) 27%, rgba(108,51,57,1) 90%);
+    border-radius: 25px;
+    overflow: auto;
+    display: inline-block;
+    
+}
+.container-bio p {
+    
+    font-family: 'BebasNue';
+    font-size: 1rem;
+    color: black;
+}
+
+.imagenProcesador{
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
