@@ -2,6 +2,10 @@
     font-family: 'BebasNue';
     src: url(./fonts/BebasNeue-Regular.ttf);
 }
+@font-face {
+    font-family: 'Staat';
+    src: url(./fonts/Staatliches-Regular.ttf);
+}
 
 body{
     background: rgb(69,0,92);
@@ -78,14 +82,15 @@ body{
     overflow:hidden;
     overflow: auto;
 }
-.container-bio p {
-    font-family: 'BebasNue';
-    font-size: 1rem;
+.container-bio p  {
+    font-family: 'Staat';
+    font-size: 1.3rem;
     color: black;
     overflow:auto;
     border-radius: 5px;
     flex-wrap: wrap; 
 }
+
 .container-bio{
     flex-wrap: wrap;
     width: 50%;
@@ -99,13 +104,14 @@ body{
 } 
 .container-img {
     width: 50%;
-     height: 100%;
-     align-items: center;
-     justify-content: center;
-     display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 } 
 img{
-    height: 80%;
-    width: 80%; 
+    overflow:auto;
+    height: 450px;
+    width: 300px; 
     border-radius: 25px;  
 }  
