@@ -4,6 +4,8 @@
 }
 
 body{
+    background: rgb(69,0,92);
+    background: linear-gradient(90deg, rgba(69,0,92,1) 14%, rgba(167,14,85,1) 86%);
     background-color: whitesmoke;
     width: 100%;
     font-family: 'BebasNue';
@@ -12,8 +14,8 @@ body{
     overflow: auto;
 }
 .header{
-    background: rgb(69,0,92);
-    background: linear-gradient(90deg, rgba(69,0,92,1) 14%, rgba(167,14,85,1) 86%);
+    background: rgb(46,6,60);
+    background: linear-gradient(90deg, rgba(46,6,60,1) 27%, rgba(45,12,15,1) 84%);  
     left: 0%;
     top: 0%;
     width: 100%;
@@ -70,22 +72,40 @@ body{
 .recuadro-bio{
     width: 80%;
     height: 90%;
-    background: rgb(69,0,92);
-    background: linear-gradient(90deg, rgba(69,0,92,1) 27%, rgba(108,51,57,1) 90%);
+    background-color: whitesmoke;
     border-radius: 25px;
+    display: flex;
+    overflow:hidden;
     overflow: auto;
-    display: inline-block;
-    
 }
 .container-bio p {
-    
     font-family: 'BebasNue';
     font-size: 1rem;
     color: black;
+    overflow:auto;
+    border-radius: 5px;
+    flex-wrap: wrap; 
 }
-
-.imagenProcesador{
-    width: 300px;
-    height: 300px;
+.container-bio{
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+    align-items:center;
     display: flex;
-}
+    justify-content: center;
+    overflow: auto;
+    margin: 10px 0px;
+    
+} 
+.container-img {
+    width: 50%;
+     height: 100%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+} 
+img{
+    height: 80%;
+    width: 80%; 
+    border-radius: 25px;  
+}  
